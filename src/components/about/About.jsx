@@ -22,7 +22,7 @@ const About = () => {
             <article className ="about__card">
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>3 Months Buidling Web Apps</small>
+              <small>3 Months Building Web Apps</small>
             </article>
 
             <article className ="about__card">
@@ -32,7 +32,7 @@ const About = () => {
             </article>
           </div>
             <p>
-            I'm Tyree Webber, A recent Lighthouse Labs Full-Stack Web Development bootcamp graduate, looking to improve upon my coding and programming skills by building sleek, stylish and user-friendly web applications, games and programs.
+            I'm Tyree Webber, A recent Lighthouse Labs Full-Stack Web Development bootcamp graduate, looking to improve upon my coding and programming skills by building sleek, stylish and user-friendly web applications, games and programs. Outside of building web applications, I enjoy playing MMORPG's such as World of Warcraft, listening to music and avant-garde fashion of which my favourite designers are Rick Owens, Tatsuro Horikawa and Carol Christian Poell to name a few.
             </p>
 
             <a href="#contact" className='btn btn-primary'>Let's Talk</a>
