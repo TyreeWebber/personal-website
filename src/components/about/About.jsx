@@ -31,8 +31,11 @@ const About = () => {
               <small>JavaScript & Ruby</small>
             </article>
           </div>
-            <p>
-            I'm Tyree Webber, A recent Lighthouse Labs Full-Stack Web Development bootcamp graduate, looking to improve upon my coding and programming skills by building sleek, stylish and user-friendly web applications, games and programs. Outside of building web applications, I enjoy playing MMORPG's such as World of Warcraft, listening to music and avant-garde fashion of which my favourite designers are Rick Owens, Tatsuro Horikawa and Carol Christian Poell to name a few.
+            <p className='dev'>
+            <mark className='hello'>Hello!</mark> I'm Tyree Webber, A recent Lighthouse Labs Full-Stack Web Development bootcamp graduate, looking to improve upon my coding and programming skills by building sleek, stylish and user-friendly web applications, games and programs.
+            </p>
+            <p className='personal'>
+            Outside of building web applications, I enjoy playing MMORPG's such as World of Warcraft, listening to music and avant-garde fashion of which my favourite designers are Rick Owens, Tatsuro Horikawa and Carol Christian Poell to name a few.
             </p>
 
             <a href="#contact" className='btn btn-primary'>Let's Talk</a>
