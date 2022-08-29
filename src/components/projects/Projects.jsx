@@ -1,50 +1,63 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './projects.css'
+import Carousel from 'react-bootstrap/Carousel';
 import IMG1 from '../../assets/scheduler.png'
 import IMG2 from '../../assets/happyeats.png'
 import IMG3 from '../../assets/dinobattleroyale.png'
 
-const Projects = () => {
+
+
+function Projects() {
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
+
   return (
     <section id='projects'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
-      <div className="container portfolio__container">
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src= {IMG1} alt="" />
-          </div>
-          <h3>Scheduler</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com/TyreeWebber/scheduler" className='btn btn-primary' target='_blank'>GitHub</a>
-          </div>
-        </article>
-      </div>
+      <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel.Item>
+        <img
+          className="scheduler"
+          src={IMG1}
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3 className='first-slide'>Scheduler</h3>
+          <a href="https://github.com/TyreeWebber/scheduler" className='btn btn-primary'>GitHub</a>
+        </Carousel.Caption>
+      </Carousel.Item>
 
-      <div className="container portfolio__container">
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src= {IMG2} alt="" />
-          </div>
+      <Carousel.Item>
+        <img
+          className="happyeats"
+          src={IMG2}
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
           <h3>Happy Eats</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com/TyreeWebber/food-delivery-app" className='btn btn-primary' target='_blank'>GitHub</a>
-          </div>
-        </article>
-      </div>
+          <a href="https://github.com/TyreeWebber/food-delivery-app" className='btn btn-primary'>GitHub</a>
+        </Carousel.Caption>
+      </Carousel.Item>
 
-      <div className="container portfolio__container">
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src= {IMG3} alt="" />
-          </div>
+      <Carousel.Item>
+        <img
+          className="dino"
+          src={IMG3}
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
           <h3>Dino: Battle Royale</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com/TyreeWebber/lhl-final" className='btn btn-primary' target='_blank'>GitHub</a>
-          </div>
-        </article>
-      </div>
+          <a href="https://github.com/TyreeWebber/lhl-final" className='btn btn-primary'>GitHub</a>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
     </section>
   )
 }
