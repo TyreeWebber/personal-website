@@ -18,7 +18,6 @@ function Projects() {
     <section id='projects'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
-
       <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img
@@ -40,7 +39,7 @@ function Projects() {
         />
 
         <Carousel.Caption>
-          <h3>Happy Eats</h3>
+          <h3 className='second-slide'>Happy Eats</h3>
           <a href="https://github.com/TyreeWebber/food-delivery-app" className='btn btn-primary'>GitHub</a>
         </Carousel.Caption>
       </Carousel.Item>
@@ -53,7 +52,7 @@ function Projects() {
         />
 
         <Carousel.Caption>
-          <h3>Dino: Battle Royale</h3>
+          <h3 className='third-slide'>Dino: Battle Royale</h3>
           <a href="https://github.com/TyreeWebber/lhl-final" className='btn btn-primary'>GitHub</a>
         </Carousel.Caption>
       </Carousel.Item>

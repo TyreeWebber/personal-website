@@ -1,3 +1,60 @@
 .scheduler {
-  
+width: 60rem;
+display: block;
+text-align: center;
+margin-left: 15rem;
+}
+
+.happyeats {
+  width: 60rem;
+  display: block;
+  text-align: center;
+  margin-left: 15rem;
+}
+
+.dino {
+  width: 60rem;
+  display: block;
+  text-align: center;
+  margin-left: 15rem;
+}
+
+.third-slide {
+  color: #fff;
+}
+
+h3 {
+  color: #000;
+}
+
+/* ===== MEDIA QUERIES (MEDIUM DEVICES) ===== */
+
+@media screen and (max-width: 1024px) {
+  .scheduler {
+    margin-left: 0;
+  }
+  .dino {
+    margin-left: 0;
+  }
+  .happyeats {
+    margin-left: 0;
+  }
+}
+
+
+/* ===== MEDIA QUERIES (SMALL DEVICES) ===== */
+
+@media screen and (max-width: 600px) {
+  .scheduler {
+    margin-left: 0;
+  }
+  .dino {
+    margin-left: 0;
+  }
+  .happyeats {
+    margin-left: 0;
+  }
+  #projects {
+    margin-top: 20rem
+  }
 }
