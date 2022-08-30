@@ -27,6 +27,8 @@ h3 {
   color: #000;
 }
 
+
+
 /* ===== MEDIA QUERIES (MEDIUM DEVICES) ===== */
 
 @media screen and (max-width: 1024px) {
@@ -47,14 +49,20 @@ h3 {
 @media screen and (max-width: 600px) {
   .scheduler {
     margin-left: 0;
+    width: 40rem;
   }
   .dino {
     margin-left: 0;
+    width: 40rem;
   }
   .happyeats {
     margin-left: 0;
+    width: 40rem;
   }
   #projects {
     margin-top: 20rem
   }
+  .carousel-control-next, .carousel-control-prev{
+    filter: invert(100%);
+}
 }
