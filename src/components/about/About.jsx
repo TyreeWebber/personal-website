@@ -32,13 +32,12 @@ const About = () => {
             </article>
           </div>
             <p className='dev'>
-            <mark className='hello'>Hello!</mark> I'm Tyree Webber, A recent Lighthouse Labs Full-Stack Web Development bootcamp graduate, looking to improve upon my coding and programming skills by building sleek, stylish and user-friendly web applications, games and programs.
+            <mark className='hello'>Hello!</mark> I'm Tyree Webber, A recent Lighthouse Labs Full-Stack Web Development bootcamp graduate based out of Edmonton, Alberta Canada, looking to improve upon my coding and programming skills by building sleek, stylish and user-friendly web applications, games and programs.
             </p>
             <p className='personal'>
-            Outside of building web applications, I enjoy playing MMORPG's such as World of Warcraft, listening to a wide variety of music, and fashion of which my favourite designers are Rick Owens, Henri Alexander Levy and Jun Takahashi to name a few.
+            Outside of building web applications, I enjoy playing video games such as World of Warcraft, listening to a wide variety of music from bedroom pop to heavy metal and everything inbetween, fashion with my favourite designers being Rick Owens, Henri Alexander Levy and Demna Gvsalia, hanging out with friends and eating good food.
             </p>
-
-            <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+            <a href="#contact" className='btn btn-primary'>Let's Talk!</a>
         </div>
       </div>
     </section>

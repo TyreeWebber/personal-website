@@ -34,13 +34,22 @@ h3 {
 @media screen and (max-width: 1024px) {
   .scheduler {
     margin-left: 0;
+    width: 50rem;
   }
   .dino {
     margin-left: 0;
+    width: 50rem;
   }
   .happyeats {
     margin-left: 0;
+    width: 50rem;
   }
+  #projects {
+    margin-top: 30rem;
+  }
+  .carousel-control-next, .carousel-control-prev{
+    filter: invert(100%);
+}
 }
 
 
@@ -60,7 +69,7 @@ h3 {
     width: 40rem;
   }
   #projects {
-    margin-top: 20rem
+    margin-top: 25rem
   }
   .carousel-control-next, .carousel-control-prev{
     filter: invert(100%);
