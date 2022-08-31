@@ -82,4 +82,9 @@ input, textarea {
   #contact {
     margin-top: -20rem;
   }
+  #submit-button {
+    display: inline-block;
+    text-align: center;
+    margin-left: 5rem;
+  }
 }
