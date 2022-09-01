@@ -87,4 +87,7 @@ input, textarea {
     text-align: center;
     margin-left: 6rem;
   }
+  textarea {
+    height: 15em;
+}
 }
