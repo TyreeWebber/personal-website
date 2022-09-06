@@ -18,7 +18,7 @@ function Projects() {
     <section id='projects'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
-      <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel activeIndex={index} onSelect={handleSelect} interval={null}>
       <Carousel.Item>
         <img
           className="scheduler"
